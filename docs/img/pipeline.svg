@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 130" width="820" height="130" role="img" aria-label="Pipeline : données, audit, variables, découpage, modèles, explications">
+  <style>
+    :root { --bg: #f6f8fa; --pipe: #d0d7de; --node: #ffffff; --ring: #8c959f; --text: #1f2328; --accent: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #161b22; --pipe: #30363d; --node: #0d1117; --ring: #6e7681; --text: #e6edf3; --accent: #4493f8; }
+    }
+    .bg { fill: var(--bg); }
+    .pipe { stroke: var(--pipe); stroke-width: 8; stroke-linecap: round; fill: none; }
+    .flow { stroke: var(--accent); stroke-width: 3; stroke-dasharray: 10 14; stroke-linecap: round; fill: none; opacity: .7;
+            animation: flow 1s linear infinite; }
+    .node { fill: var(--node); stroke: var(--ring); stroke-width: 2.5; transform-box: fill-box; transform-origin: center;
+            animation: pulse 6s ease-in-out infinite; }
+    .label { fill: var(--text); font: 600 15px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; text-anchor: middle; }
+    .n1 { animation-delay: 0s; } .n2 { animation-delay: 1s; } .n3 { animation-delay: 2s; }
+    .n4 { animation-delay: 3s; } .n5 { animation-delay: 4s; } .n6 { animation-delay: 5s; }
+    @keyframes flow { from { stroke-dashoffset: 24; } to { stroke-dashoffset: 0; } }
+    @keyframes pulse {
+      0%, 22%, 100% { fill: var(--node); stroke: var(--ring); transform: scale(1); }
+      8% { fill: var(--accent); stroke: var(--accent); transform: scale(1.25); }
+    }
+    @media (prefers-reduced-motion: reduce) { .flow, .node { animation: none; } }
+  </style>
+  <rect class="bg" x="0" y="0" width="820" height="130" rx="14"/>
+  <line class="pipe" x1="60" y1="50" x2="760" y2="50"/>
+  <line class="flow" x1="60" y1="50" x2="760" y2="50"/>
+  <circle class="node n1" cx="60"  cy="50" r="14"/>
+  <circle class="node n2" cx="200" cy="50" r="14"/>
+  <circle class="node n3" cx="340" cy="50" r="14"/>
+  <circle class="node n4" cx="480" cy="50" r="14"/>
+  <circle class="node n5" cx="620" cy="50" r="14"/>
+  <circle class="node n6" cx="760" cy="50" r="14"/>
+  <text class="label" x="60"  y="98">Données</text>
+  <text class="label" x="200" y="98">Audit</text>
+  <text class="label" x="340" y="98">Variables</text>
+  <text class="label" x="480" y="98">Découpage</text>
+  <text class="label" x="620" y="98">Modèles</text>
+  <text class="label" x="760" y="98">Explications</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 230" width="820" height="230" role="img" aria-label="Fonctionnement : les capteurs mesurent un cycle, le modèle donne un diagnostic, puis l'explication montre les capteurs qui ont compté">
+  <style>
+    :root { --bg: #f6f8fa; --card: #ffffff; --line: #d0d7de; --text: #1f2328; --muted: #59636e; --accent: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #161b22; --card: #0d1117; --line: #30363d; --text: #e6edf3; --muted: #9198a1; --accent: #4493f8; }
+    }
+    .bg { fill: var(--bg); }
+    .card { fill: var(--card); stroke: var(--line); stroke-width: 1.5; }
+    .step { fill: var(--muted); font: 600 13px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; text-anchor: middle; letter-spacing: .3px; }
+    .txt { fill: var(--text); font: 600 15px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .small { fill: var(--muted); font: 13px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mid { text-anchor: middle; }
+    .wave { fill: none; stroke: var(--accent); stroke-width: 2.2; stroke-linecap: round; }
+    .w1 { animation: slide1 1.2s linear infinite; }
+    .w2 { animation: slide2 .8s linear infinite; }
+    .w3 { animation: slide3 3s linear infinite; }
+    @keyframes slide1 { to { transform: translateX(-30px); } }
+    @keyframes slide2 { to { transform: translateX(-20px); } }
+    @keyframes slide3 { to { transform: translateX(-60px); } }
+    .flow { stroke: var(--accent); stroke-width: 3; stroke-dasharray: 8 10; stroke-linecap: round; animation: flow .9s linear infinite; }
+    @keyframes flow { from { stroke-dashoffset: 18; } to { stroke-dashoffset: 0; } }
+    .model { fill: var(--card); stroke: var(--accent); stroke-width: 2.5; transform-box: fill-box; transform-origin: center; animation: think 8s ease-in-out infinite; }
+    @keyframes think { 0%, 12%, 30%, 100% { transform: scale(1); } 20% { transform: scale(1.06); } }
+    .diag { animation: diag 8s ease infinite; }
+    .why  { animation: why 8s ease infinite; }
+    .bar  { fill: var(--accent); transform-box: fill-box; transform-origin: left center; animation: bar 8s ease infinite both; }
+    .b2 { animation-delay: .25s; opacity: .75; } .b3 { animation-delay: .5s; opacity: .5; }
+    .hl { animation: hl 8s ease infinite; }
+    @keyframes diag { 0%, 22% { opacity: 0; } 30%, 92% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes why  { 0%, 40% { opacity: 0; } 47%, 92% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes bar  { 0%, 47% { transform: scaleX(0); } 60%, 92% { transform: scaleX(1); } 100% { transform: scaleX(0); } }
+    @keyframes hl   { 0%, 50%, 100% { fill: var(--text); } 60%, 92% { fill: var(--accent); } }
+    @media (prefers-reduced-motion: reduce) {
+      .w1, .w2, .w3, .flow, .model, .diag, .why, .bar, .hl { animation: none; }
+    }
+  </style>
+  <defs>
+    <clipPath id="win"><rect x="75" y="62" width="150" height="116"/></clipPath>
+    <marker id="head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0969da"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="820" height="230" rx="14"/>
+
+  <text class="step" x="150" y="34">1 · LES CAPTEURS MESURENT</text>
+  <text class="step" x="415" y="34">2 · LE MODÈLE DÉCIDE</text>
+  <text class="step" x="682" y="34">3 · ON EXPLIQUE</text>
+
+  <!-- 1. capteurs -->
+  <text class="txt hl" x="28" y="85">PS1</text>
+  <text class="txt" x="28" y="125">FS1</text>
+  <text class="txt" x="28" y="165">TS1</text>
+  <g clip-path="url(#win)">
+    <path class="wave w1" d="M45 80 q7.5 -12 15 0 t15 0 t15 0 t15 0 t15 0 t15 0 t15 0 t15 0 t15 0 t15 0 t15 0 t15 0 t15 0 t15 0"/>
+    <path class="wave w2" d="M55 120 q5 -7 10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0"/>
+    <path class="wave w3" d="M15 160 q15 -6 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0"/>
+  </g>
+  <text class="small" x="28" y="205">+ les autres capteurs</text>
+
+  <!-- flèches -->
+  <line class="flow" x1="245" y1="120" x2="335" y2="120" marker-end="url(#head)"/>
+  <line class="flow" x1="490" y1="120" x2="555" y2="120" marker-end="url(#head)"/>
+
+  <!-- 2. modèle -->
+  <rect class="model" x="345" y="82" width="140" height="76" rx="12"/>
+  <text class="txt mid" x="415" y="116">Modèle</text>
+  <text class="small mid" x="415" y="138">appris sur le passé</text>
+
+  <!-- 3. diagnostic + explication -->
+  <rect class="card" x="565" y="52" width="235" height="160" rx="12"/>
+  <g class="diag">
+    <text class="small" x="582" y="78">Diagnostic</text>
+    <text class="txt" x="582" y="100">Valve : défaut probable</text>
+  </g>
+  <g class="why">
+    <text class="small" x="582" y="130">Pourquoi ? capteurs qui ont compté</text>
+    <text class="small" x="582" y="155">PS1</text>
+    <text class="small" x="582" y="177">FS1</text>
+    <text class="small" x="582" y="199">TS1</text>
+  </g>
+  <rect class="bar"    x="618" y="145" width="160" height="12" rx="4"/>
+  <rect class="bar b2" x="618" y="167" width="90"  height="12" rx="4"/>
+  <rect class="bar b3" x="618" y="189" width="40"  height="12" rx="4"/>
+</svg>
