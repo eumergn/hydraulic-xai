@@ -1,0 +1,300 @@
+{
+  "profile_shape": [
+    2205,
+    5
+  ],
+  "profile_nan": 0,
+  "total_sensor_columns": 43680,
+  "all_sensor_shapes_ok": true,
+  "class_counts_match_documentation": true,
+  "class_counts": {
+    "cooler": {
+      "100": 741,
+      "3": 732,
+      "20": 732
+    },
+    "valve": {
+      "100": 1125,
+      "73": 360,
+      "80": 360,
+      "90": 360
+    },
+    "pump": {
+      "0": 1221,
+      "2": 492,
+      "1": 492
+    },
+    "accumulator": {
+      "90": 808,
+      "130": 599,
+      "115": 399,
+      "100": 399
+    },
+    "stable": {
+      "0": 1449,
+      "1": 756
+    }
+  },
+  "n_runs": 194,
+  "run_length": {
+    "count": 194.0,
+    "mean": 11.3659793814433,
+    "std": 24.392623477681216,
+    "min": 1.0,
+    "25%": 10.0,
+    "50%": 10.0,
+    "75%": 10.0,
+    "max": 210.0
+  },
+  "n_distinct_combinations": 144,
+  "possible_combinations": 144,
+  "cycles_per_combination": {
+    "count": 144.0,
+    "mean": 15.3125,
+    "std": 30.667508317983163,
+    "min": 10.0,
+    "25%": 10.0,
+    "50%": 10.0,
+    "75%": 10.25,
+    "max": 230.0
+  },
+  "runs_per_combination": {
+    "count": 144.0,
+    "mean": 1.3472222222222223,
+    "std": 0.6723244767373876,
+    "min": 1.0,
+    "25%": 1.0,
+    "50%": 1.0,
+    "75%": 1.25,
+    "max": 4.0
+  },
+  "combinations_seen_in_one_run": 108,
+  "unstable_first_cycles": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "unstable_last_cycles": [
+    2066,
+    2067,
+    2068,
+    2069,
+    2070,
+    2071,
+    2072,
+    2073,
+    2114,
+    2155
+  ],
+  "unstable_runs_share": 0.25773195876288657,
+  "first_transitions_by_target": {
+    "cooler": [
+      732,
+      1464
+    ],
+    "valve": [
+      211,
+      221,
+      231,
+      241,
+      252,
+      262,
+      272,
+      282,
+      293,
+      303,
+      313,
+      323
+    ],
+    "pump": [
+      210,
+      251,
+      292,
+      343,
+      384,
+      425,
+      476,
+      517,
+      558,
+      609,
+      650,
+      691
+    ],
+    "accumulator": [
+      333,
+      466,
+      599,
+      932,
+      1065,
+      1198,
+      1331,
+      1664,
+      1797,
+      1930,
+      2063
+    ]
+  },
+  "n_transitions_by_target": {
+    "cooler": 2,
+    "valve": 144,
+    "pump": 36,
+    "accumulator": 11
+  },
+  "chronological_60_40": {
+    "cut_cycle": 1323,
+    "cooler": {
+      "train_classes": [
+        3,
+        20
+      ],
+      "test_classes": [
+        20,
+        100
+      ],
+      "test_only": [
+        100
+      ]
+    },
+    "valve": {
+      "train_classes": [
+        73,
+        80,
+        90,
+        100
+      ],
+      "test_classes": [
+        73,
+        80,
+        90,
+        100
+      ],
+      "test_only": []
+    },
+    "pump": {
+      "train_classes": [
+        0,
+        1,
+        2
+      ],
+      "test_classes": [
+        0,
+        1,
+        2
+      ],
+      "test_only": []
+    },
+    "accumulator": {
+      "train_classes": [
+        90,
+        100,
+        115,
+        130
+      ],
+      "test_classes": [
+        90,
+        100,
+        115,
+        130
+      ],
+      "test_only": []
+    },
+    "test_combinations": 61,
+    "test_combinations_unseen_in_train": 59
+  },
+  "chronological_80_20": {
+    "cut_cycle": 1764,
+    "cooler": {
+      "train_classes": [
+        3,
+        20,
+        100
+      ],
+      "test_classes": [
+        100
+      ],
+      "test_only": []
+    },
+    "valve": {
+      "train_classes": [
+        73,
+        80,
+        90,
+        100
+      ],
+      "test_classes": [
+        73,
+        80,
+        90,
+        100
+      ],
+      "test_only": []
+    },
+    "pump": {
+      "train_classes": [
+        0,
+        1,
+        2
+      ],
+      "test_classes": [
+        0,
+        1,
+        2
+      ],
+      "test_only": []
+    },
+    "accumulator": {
+      "train_classes": [
+        90,
+        100,
+        115,
+        130
+      ],
+      "test_classes": [
+        90,
+        100,
+        115,
+        130
+      ],
+      "test_only": []
+    },
+    "test_combinations": 40,
+    "test_combinations_unseen_in_train": 37
+  },
+  "strong_sensor_pairs_abs_ge_0_95": {
+    "PS5~PS6": 1.0,
+    "TS1~TS3": 0.9997,
+    "TS1~TS2": 0.9993,
+    "TS1~TS4": 0.9992,
+    "TS2~TS3": 0.9991,
+    "TS3~TS4": 0.9984,
+    "TS2~TS4": 0.9983,
+    "FS2~TS3": -0.9963,
+    "PS1~PS2": 0.9953,
+    "PS5~TS4": -0.9951,
+    "PS6~TS4": -0.9949,
+    "FS2~TS1": -0.9947,
+    "FS1~SE": 0.9946,
+    "FS2~TS2": -0.9931,
+    "PS5~TS2": -0.9929,
+    "PS6~TS2": -0.9928,
+    "PS5~TS1": -0.9927,
+    "PS6~TS1": -0.9925,
+    "FS2~TS4": -0.9914,
+    "PS5~TS3": -0.9914,
+    "PS6~TS3": -0.9912,
+    "PS5~FS2": 0.9797,
+    "PS6~FS2": 0.9794,
+    "PS6~CE": 0.9742,
+    "CE~CP": 0.9741,
+    "PS5~CE": 0.974,
+    "PS2~SE": -0.958,
+    "TS4~CE": -0.956
+  }
+}

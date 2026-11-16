@@ -1,0 +1,444 @@
+{
+  "ps4_all_zero_cycles": 1238,
+  "ps4_nonzero_share_by_block": [
+    {
+      "value": 1,
+      "start": 0,
+      "end": 15,
+      "length": 16
+    },
+    {
+      "value": 0,
+      "start": 16,
+      "end": 16,
+      "length": 1
+    },
+    {
+      "value": 1,
+      "start": 17,
+      "end": 170,
+      "length": 154
+    },
+    {
+      "value": 0,
+      "start": 171,
+      "end": 171,
+      "length": 1
+    },
+    {
+      "value": 1,
+      "start": 172,
+      "end": 211,
+      "length": 40
+    },
+    {
+      "value": 0,
+      "start": 212,
+      "end": 212,
+      "length": 1
+    },
+    {
+      "value": 1,
+      "start": 213,
+      "end": 214,
+      "length": 2
+    },
+    {
+      "value": 0,
+      "start": 215,
+      "end": 215,
+      "length": 1
+    },
+    {
+      "value": 1,
+      "start": 216,
+      "end": 246,
+      "length": 31
+    },
+    {
+      "value": 0,
+      "start": 247,
+      "end": 249,
+      "length": 3
+    },
+    {
+      "value": 1,
+      "start": 250,
+      "end": 269,
+      "length": 20
+    },
+    {
+      "value": 0,
+      "start": 270,
+      "end": 271,
+      "length": 2
+    },
+    {
+      "value": 1,
+      "start": 272,
+      "end": 283,
+      "length": 12
+    },
+    {
+      "value": 0,
+      "start": 284,
+      "end": 284,
+      "length": 1
+    },
+    {
+      "value": 1,
+      "start": 285,
+      "end": 291,
+      "length": 7
+    },
+    {
+      "value": 0,
+      "start": 292,
+      "end": 294,
+      "length": 3
+    },
+    {
+      "value": 1,
+      "start": 295,
+      "end": 311,
+      "length": 17
+    },
+    {
+      "value": 0,
+      "start": 312,
+      "end": 313,
+      "length": 2
+    },
+    {
+      "value": 1,
+      "start": 314,
+      "end": 322,
+      "length": 9
+    },
+    {
+      "value": 0,
+      "start": 323,
+      "end": 323,
+      "length": 1
+    },
+    {
+      "value": 1,
+      "start": 324,
+      "end": 328,
+      "length": 5
+    },
+    {
+      "value": 0,
+      "start": 329,
+      "end": 330,
+      "length": 2
+    },
+    {
+      "value": 1,
+      "start": 331,
+      "end": 332,
+      "length": 2
+    },
+    {
+      "value": 0,
+      "start": 333,
+      "end": 333,
+      "length": 1
+    },
+    {
+      "value": 1,
+      "start": 334,
+      "end": 334,
+      "length": 1
+    },
+    {
+      "value": 0,
+      "start": 335,
+      "end": 342,
+      "length": 8
+    },
+    {
+      "value": 1,
+      "start": 343,
+      "end": 343,
+      "length": 1
+    },
+    {
+      "value": 0,
+      "start": 344,
+      "end": 358,
+      "length": 15
+    },
+    {
+      "value": 1,
+      "start": 359,
+      "end": 363,
+      "length": 5
+    },
+    {
+      "value": 0,
+      "start": 364,
+      "end": 364,
+      "length": 1
+    }
+  ],
+  "ps4_n_blocks": 238,
+  "ps4_all_zero_share_by_level": {
+    "cooler": {
+      "3": 0.7896174863387978,
+      "20": 0.9016393442622951,
+      "100": 0.0
+    },
+    "valve": {
+      "73": 0.525,
+      "80": 0.5583333333333333,
+      "90": 0.5333333333333333,
+      "100": 0.5831111111111111
+    },
+    "pump": {
+      "0": 0.6036036036036037,
+      "1": 0.508130081300813,
+      "2": 0.5101626016260162
+    },
+    "accumulator": {
+      "90": 0.47648514851485146,
+      "100": 0.5037593984962406,
+      "115": 0.518796992481203,
+      "130": 0.7429048414023373
+    },
+    "stable": {
+      "0": 0.5327812284334024,
+      "1": 0.6164021164021164
+    }
+  },
+  "cooler_blocks": [
+    {
+      "value": 3,
+      "start": 0,
+      "end": 731,
+      "length": 732
+    },
+    {
+      "value": 20,
+      "start": 732,
+      "end": 1463,
+      "length": 732
+    },
+    {
+      "value": 100,
+      "start": 1464,
+      "end": 2204,
+      "length": 741
+    }
+  ],
+  "accumulator_blocks": [
+    {
+      "value": 130,
+      "start": 0,
+      "end": 332,
+      "length": 333,
+      "cooler_values": [
+        3
+      ]
+    },
+    {
+      "value": 115,
+      "start": 333,
+      "end": 465,
+      "length": 133,
+      "cooler_values": [
+        3
+      ]
+    },
+    {
+      "value": 100,
+      "start": 466,
+      "end": 598,
+      "length": 133,
+      "cooler_values": [
+        3
+      ]
+    },
+    {
+      "value": 90,
+      "start": 599,
+      "end": 931,
+      "length": 333,
+      "cooler_values": [
+        3,
+        20
+      ]
+    },
+    {
+      "value": 130,
+      "start": 932,
+      "end": 1064,
+      "length": 133,
+      "cooler_values": [
+        20
+      ]
+    },
+    {
+      "value": 115,
+      "start": 1065,
+      "end": 1197,
+      "length": 133,
+      "cooler_values": [
+        20
+      ]
+    },
+    {
+      "value": 100,
+      "start": 1198,
+      "end": 1330,
+      "length": 133,
+      "cooler_values": [
+        20
+      ]
+    },
+    {
+      "value": 90,
+      "start": 1331,
+      "end": 1663,
+      "length": 333,
+      "cooler_values": [
+        20,
+        100
+      ]
+    },
+    {
+      "value": 130,
+      "start": 1664,
+      "end": 1796,
+      "length": 133,
+      "cooler_values": [
+        100
+      ]
+    },
+    {
+      "value": 115,
+      "start": 1797,
+      "end": 1929,
+      "length": 133,
+      "cooler_values": [
+        100
+      ]
+    },
+    {
+      "value": 100,
+      "start": 1930,
+      "end": 2062,
+      "length": 133,
+      "cooler_values": [
+        100
+      ]
+    },
+    {
+      "value": 90,
+      "start": 2063,
+      "end": 2204,
+      "length": 142,
+      "cooler_values": [
+        100
+      ]
+    }
+  ],
+  "unstable_share_by_position_in_run": {
+    "0": 0.258,
+    "1": 0.089,
+    "2": 0.089,
+    "3": 0.089,
+    "4": 0.089,
+    "5": 0.089,
+    "6": 0.089,
+    "7": 0.089,
+    "8": 0.089,
+    "9": 0.089,
+    "10": 0.75,
+    "11": 0.75,
+    "12": 0.988
+  },
+  "unstable_outside_first_210_cycles": 546,
+  "unstable_by_cooler": {
+    "3": 252,
+    "20": 252,
+    "100": 252
+  },
+  "startup_zero_columns": {
+    "PS2": {
+      "columns_almost_always_zero": 582,
+      "first": 282,
+      "last": 925,
+      "columns": [
+        282,
+        292,
+        293,
+        294,
+        298,
+        299,
+        306,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        320,
+        321
+      ]
+    },
+    "PS3": {
+      "columns_almost_always_zero": 130,
+      "first": 8,
+      "last": 141,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    "FS1": {
+      "columns_almost_always_zero": 0,
+      "first": null,
+      "last": null,
+      "columns": []
+    },
+    "SE": {
+      "columns_almost_always_zero": 8,
+      "first": 1,
+      "last": 8,
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  }
+}
