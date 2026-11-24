@@ -1,0 +1,14 @@
+{
+  "accumulator": {
+    "num_leaves": 15,
+    "colsample_bytree": 0.6
+  },
+  "pump": {
+    "num_leaves": 15,
+    "colsample_bytree": 0.6
+  },
+  "valve": {
+    "num_leaves": 7,
+    "colsample_bytree": 0.3
+  }
+}
