@@ -1,0 +1,16 @@
+context,model,test,layers_randomized,global_spearman,local_spearman,macro_f1
+valve_lopo,lightgbm,label_permutation,,0.04666073194106081,,0.24767347302729092
+valve_lopo,mlp,cascading_parameters,1.0,0.9621276264494995,0.7657283525873195,
+valve_lopo,mlp,cascading_parameters,2.0,0.8434551447410671,0.6446958809350092,
+valve_lopo,mlp,cascading_parameters,3.0,0.686279126980225,0.5578933925943584,
+valve_lopo,mlp,label_permutation,,0.5062580481247613,,0.24143226246770338
+accumulator_lopo,lightgbm,label_permutation,,-0.029279936629180207,,0.0800561797752809
+accumulator_lopo,mlp,cascading_parameters,1.0,0.84990716881462,0.7375165515267526,
+accumulator_lopo,mlp,cascading_parameters,2.0,0.5875590516206706,0.519011321259747,
+accumulator_lopo,mlp,cascading_parameters,3.0,0.4660023282541654,0.4391390717480158,
+accumulator_lopo,mlp,label_permutation,,0.4912648403361056,,0.13768115942028986
+accumulator_random,lightgbm,label_permutation,,-0.21626824823777407,,0.19473197374796283
+accumulator_random,mlp,cascading_parameters,1.0,0.880677448958227,0.7417990794984293,
+accumulator_random,mlp,cascading_parameters,2.0,0.6830617089577357,0.5134623301565262,
+accumulator_random,mlp,cascading_parameters,3.0,-0.028625892652348467,0.3344649292475216,
+accumulator_random,mlp,label_permutation,,0.4543092219517722,,0.24624949416914985

@@ -1,0 +1,108 @@
+{
+  "valve_lopo": [
+    {
+      "cycle": 1876,
+      "true_level": 90,
+      "desired_level": 100,
+      "changes": [
+        {
+          "feature": "PS2__0-10s__mean",
+          "from": 8.957844734191895,
+          "to": 9.5770856
+        },
+        {
+          "feature": "PS1__0-10s__std",
+          "from": 8.648536682128906,
+          "to": 10.6455436
+        }
+      ]
+    },
+    {
+      "cycle": 2180,
+      "true_level": 90,
+      "desired_level": 100,
+      "changes": [
+        {
+          "feature": "PS1__0-10s__std",
+          "from": 8.322982788085938,
+          "to": 10.7397091
+        },
+        {
+          "feature": "PS1__0-10s__mean",
+          "from": 188.896484375,
+          "to": 189.09518
+        }
+      ]
+    },
+    {
+      "cycle": 2041,
+      "true_level": 80,
+      "desired_level": 100,
+      "changes": [
+        {
+          "feature": "PS2__0-10s__mean",
+          "from": 7.715392112731934,
+          "to": 9.4829938
+        },
+        {
+          "feature": "PS2__0-10s__slope",
+          "from": 29.40560531616211,
+          "to": 39.388717
+        }
+      ]
+    }
+  ],
+  "accumulator_lopo": [
+    {
+      "cycle": 1611,
+      "true_level": 90,
+      "desired_level": 130,
+      "changes": [
+        {
+          "feature": "FS1__20-30s__slope",
+          "from": -0.6278434991836548,
+          "to": -0.93100301078
+        },
+        {
+          "feature": "SE__20-30s__std",
+          "from": 4.046151638031006,
+          "to": 11.85633722
+        }
+      ]
+    },
+    {
+      "cycle": 2199,
+      "true_level": 90,
+      "desired_level": 130,
+      "changes": [
+        {
+          "feature": "FS1__20-30s__slope",
+          "from": -0.6231262683868408,
+          "to": -0.93100301078
+        },
+        {
+          "feature": "SE__20-30s__std",
+          "from": 3.942171812057495,
+          "to": 11.85633722
+        }
+      ]
+    },
+    {
+      "cycle": 2119,
+      "true_level": 90,
+      "desired_level": 130,
+      "changes": [
+        {
+          "feature": "FS1__20-30s__slope",
+          "from": -0.6434125900268555,
+          "to": -1.03054977411
+        },
+        {
+          "feature": "PS6__50-60s__std",
+          "from": 0.020167013630270958,
+          "to": 0.023863991
+        }
+      ]
+    }
+  ]
+}
